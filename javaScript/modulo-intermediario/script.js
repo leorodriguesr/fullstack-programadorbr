@@ -12,3 +12,4 @@ p2innerHTML = "Outro texto";
 p3.textContent = "Mais um texto, o ultimo."
 
 //Parei no modificando elemetos.
+//Testando...
