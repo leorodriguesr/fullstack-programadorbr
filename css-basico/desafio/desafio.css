@@ -1,0 +1,26 @@
+#container {
+    width: 800px;
+    height: 800px;
+    /* background-color: aqua; */
+    /* background-image: url(backgorund.png); */
+    
+    
+}
+
+#conteudo {
+    padding-top: 0px;
+    padding-left: 10px;
+    background-image: url(backgorund.png);
+}
+
+#insta {
+    list-style-image: url(./Insta.png);
+}
+
+#twitter {
+    list-style-image: url(./Twitter.png);
+}
+
+#youtube {
+    list-style-image: url(./youtube.png);
+}

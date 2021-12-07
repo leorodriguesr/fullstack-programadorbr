@@ -1,0 +1,9 @@
+ul {
+    list-style-type: none;                          /*Modifica os números ou os pontos da lista*/
+    list-style-image: none;                         /*Coloca uma imagem no lugar do marcador.*/
+    list-style-position: inside;                    /*O padrão é que o marcador fique fora da lista, se colocar inside ele vai para dentro da lista.*/
+}
+
+ol {
+    list-style-type: georgian;
+}

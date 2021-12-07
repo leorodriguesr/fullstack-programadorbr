@@ -1,0 +1,23 @@
+/*
+O float também está relacionado ao posicionamento da imagem. É uma propriedade que permite que o elemento fique flutuando do lado de outro elemento. Ele é utilizado também para fazer um menu de um site por exemplo.
+*/
+
+#i1 {
+    width: 200px;
+    float: left;
+}
+
+#i2 {
+    width: 200px;
+    float: right;
+}
+
+
+
+li {
+    
+    float: right;                                            /*Também conseguiria fazer isso com o display: inline-block.*/
+    list-style: none;                                        /*Deixar de mostrar os simbolos ou a numeração da lista*/
+    margin: 10px;
+    background-color: aqua;
+}

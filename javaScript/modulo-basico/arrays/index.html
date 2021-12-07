@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var alunos = ['Igor', ' José', ' Marcos', ' Maria', 'Joana'];                              //Array é uma estrutura de dados que pode armazenar vários dados em sequência. É um conjunto de variáveis.
+        
+        for(var i=0; i < alunos.length; i++) {                                                      //Para acessar apenas um dado específico, é só abrir uma chave e colocar a posição desse dado.
+            document.write(alunos[i])                                                               //o lenght percorre o tamanho do array;
+        };
+
+        for (var i in alunos) {                                                                     //Aqui é a mesma coisa de cima, ele pega o index, ou seja, a posição de alunos e joga dentro da variavel i. Esse for é muito utilizado quando se tem arrays. O in ele pega a posição do elemento. Se eu usar o of ele pega o elemento em si.
+            document.write(alunos[i])
+        };
+
+        for (var i of alunos) {                                                                     //O of pega o elemento em si, o in pega a posição do elemento. Então, com o of, posso manda imprimir na tela apenas com o i.
+            document.write(i)
+        };
+    </script>
+</body>
+</html> 

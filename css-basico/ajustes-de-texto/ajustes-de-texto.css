@@ -1,0 +1,16 @@
+p {
+    color: black;
+    text-align: justify;                        /*Alinhamento do texto*/
+    text-transform: uppercase;                  /*Transforma o texto para maiúscula (uppercase), minúscula (lowercase) ou capitalize (coloco a primeira letra da palavra maiúscula.*/
+    text-indent: 40px;                          /*Identação do texto, é o espaçamento dos parágrafos.*/
+    text-decoration: underline;                 /*underline, overline, line-through(riscado). Quando eu criar um link, por padrão ele vem sublinhado, para tirar é só colocar none no text-decoration. */
+    letter-spacing: 1.2px;                      /*Espaço entre as letras*/
+    line-height: 40px;                           /*Altura da linha, espaçamento entre linhas.*/
+    word-spacing: 5px;                          /*Distância entre uma palavra e outra.*/
+    text-shadow: 1px 1px black;                  /*Recebe três valores, o 1º é qual vai ser o deslocamento para a direita, o 2º qual o deslocamento para baixo, e o 3º a cor da sombra.*/
+    font-style: italic;                          /*Estilo da fonte*/
+    font-size: 16px;                             /*Tamanho da fonte*/ 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 1100;                           /*Coloca a fonte em negrito com "bold". Pode ser representada por número também de 100 a 1000*/   
+    font-variant: small-caps;                    /*Deixa a fonte em maiúscula, só que a primeira letra fica mais destacada.*/
+}

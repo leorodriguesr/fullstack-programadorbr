@@ -1,0 +1,8 @@
+.card {
+    float: left;                                                /*Deixa um ao lado do outro. */
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;                                         
+    
+}

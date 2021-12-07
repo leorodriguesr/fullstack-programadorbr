@@ -1,0 +1,14 @@
+#square {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    margin: auto;                           /*Centraliza o conteúdo, independente do tamanho da janela, sempre ficará centralizado. Não funciona para imagem.*/
+    /*margin-left: auto;                      Centraliza a direita. Não funciona para imagem, a não ser que eu coloque como display: block;*/      
+
+}
+
+img {                                       /*Dá pra movimentar uma imagem colocando um display block e dando um margin. Outra forma de movimentar uma imagem é colocando ela dentro de um outro elemento, como uma div por exemplo, daí dá um text-align*/
+    width: 300px;
+    display: block;
+    margin: auto;
+}

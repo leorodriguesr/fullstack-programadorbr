@@ -1,0 +1,20 @@
+/*
+É utilizado quando vc tem um conteúdo dentro de um elemento, porém esse conteúdo é maior que o elemento. Com o overflow 
+vc consegue colocar o elemento filho dentro do elemento pai. 
+overflow: scroll; cria uma barra de rolagem do lado.
+overflow: auto; cria a barra de rolagem só onde precisa. Coloca tudo dentro do conteiner por exemplo.
+overflow: hidden; esconde tudo aquilo que passar do tamanho do container.
+*/
+
+#container {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: black;
+    text-align: justify;
+    overflow: scroll; 
+}
+
+img {
+    width: auto;
+}

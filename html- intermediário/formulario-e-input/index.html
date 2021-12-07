@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--O formulário é a ligação entre o front e o backend; É através dele que o usuário faz alguma requisição para o backend.-->
+    
+    <form method="GET" action="/cadastro">                                                      <!--O method POST não mostra os dados do usuário na url, é usado em loguins. Já o method GET mostra os dados do usuário, como no youtube por exemplo. O action é pra onde vai a requisição. Para todos os atributos/inputs preciso colocar o name, se não, quando eu clicar no submit ele não envia os dados.-->
+
+        <input type="text" name="email"><br>                                                    <!--Input do tipo texto-->        
+        <input type="password" name="senha"><br>                                                <!--Input do tipo password, não mostra o que o usuário digitou-->
+        
+        <input type="checkbox" name="curso" value="opcao1">Curso de HTML Avançado<br>           <!--Botão de selecionar-->
+        <input type="checkbox" name="curso" value="opcao2">Curso de React<br>                   <!--Se eu tiver 2 ou mais checbox é bom que eu coloque o valor de cada um deles-->
+        
+        <input type="radio" name="genero" value="M" checked>Masculino<br>                       <!--Para que dê a opção de selecionar apenas 01, o name tem que ser o mesmo. O checked é para já ficar selecionado.-->
+        <input type="radio" name="genero" value="F">Feminino<br>
+
+        <input type="button" value="Cadastrar"><br>              
+        <input type="color" name="color"><br>                                                   <!--Abre uma caixa de opcoes de cores-->   
+        <input type="date" name="data" max="2021-11-13" min="2011-01-26"><br>                   <!--Dá pra colocar data máxima e minima.-->
+        <input type="datetime-local" name="data"><br>                                           <!--Seleciona o dia e a hora, posso colocar max e min também.-->
+
+        <input type="file" name="arquivo"><br>                                                  <!--Seleciona um arquivo, para enviar o method do form tem que ser POST.-->
+
+        <input type="number" name="number"><br>                                                 <!--Só consigo colocar números. Posso colocar um min e um max também.-->    
+
+        <input type="range" name="intervalo" min="0" max="100" value="20"><br>                  <!--Mostra um barrinha com intervalor para selecionar. Se eu der um value, será a posição inicial dele-->
+        
+        <input type="tel" name="tel"><br>                                                       <!--No celular, abre o teclado de números para digitar o telefone.-->
+        <input type="email" name="email"><br>                                                   <!--Verifica que se o que está sendo digitado é um email, se não for, ele dá erro.-->
+
+        <input type="reset" value="Limpar"><br>                                                 <!--Reseta todos os dados dos inputs. O value muda o nome do botão. -->               
+        <input type="submit" value="Enviar"><br>                                                <!--Botão de enviar-->
+    </form>
+</body>
+</html>

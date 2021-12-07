@@ -1,0 +1,27 @@
+/*
+Position: static - é a posição original do elemento.
+Position: relative - é um posição relativa a sua posição original. Ele deverá receber outras propriedades como Right (direita), left (esquerda), top (acima) e bottom (abaixo).. É um distanciamento das extremidades, como se fosse a margin.
+Position: fixed; é uma posição relativa a janela. Também deverá receber as outras propriedades.
+Position: absolute; é uma posição relativa ao pai, se não tiver pai, é relativa ao body;
+position: sticky; Se eu coloco top 0 por exemplo, o elemento fica fixo na página, mesmo eu rolando para baixo, o elemento ficará fixo.
+*/
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: inline-block;                                   /*Coloca os quadrados na mesma linha, um ao lado do outro.*/
+    
+    
+}
+
+.bg-blue {
+    background-color: blue;
+    position: fixed;                                     
+    bottom: 10px;
+}
+
+.bg-red {
+    background-color: red;
+    position: fixed;
+    right: 20px;
+}

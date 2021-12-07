@@ -1,0 +1,23 @@
+.link {
+    text-decoration: none;
+    color: red;
+    cursor: auto;                            /*Muda o cursor do mouse quando passá-lo por cima do link, tem vários tipos de cursos.*/
+    border: 2px solid black;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+
+}
+
+.link:visited {                                /*Muda a cor do link que já foi visitado.*/
+    color: green;
+}
+
+.link:hover {                                   /*Quando eu passar o mouse por cima:*/
+    background-color: aqua;
+}
+
+.link:active {                                  /*Quando eu clicar no link:*/
+    background-color: red
+}

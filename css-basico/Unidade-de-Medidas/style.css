@@ -1,0 +1,41 @@
+table {
+    color: rgb(76, 0, 255);                 /*É a cor*/
+    background: url('1.jpg');               /*É o fundo*/
+    font-size: 16px;                        /*Tamanho da fonte*/
+}
+
+#cm {
+    background-color: blue;
+    width: 10cm;                             /*largura*/
+    height: 10cm;                            /*altura*/
+}
+
+#mm {
+    background-color: red;
+    width: 10mm;
+    height: 10mm;
+}
+#in {
+    background-color: green;
+    width: 10in;
+    height: 10in;
+}
+
+#in {
+    background-color: green;
+    width: 10px;
+    height: 10px;
+}
+
+#pt {
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc {
+    background-color: red;
+    width: 10pc;
+    height: 10pc;
+}
+

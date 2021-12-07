@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero = 5
+
+        for(var i= 0;i < numero; i++ ) {                            // Para o contado = 0 (esse é o inicializador), enquanto o contador for menor que a variável numero, então ele soma de 1 em 1.
+            document.write('Hello World, ') ;                         // Aqui dentro é o conteúdo que eu quero que se repita.
+            document.write('Executando o for ' + i + ' vez. ');
+        }
+
+        while(numero < 10) {                                                 //O while faz a verificação, se for verdadeira, ele executa o bloco. É a mesma coisa do for. O que muda é que no for agente sabe o ponto de partida.
+            document. write('Número ' + numero );
+            numero ++                                                        //Se eu não colocar o que eu quero que ele faça, no caso o numero ++, ele entra em loop infinito, pois vai considerar que a verificação(no caso o numero < 10) sempre será verdadeira.        
+        }
+    </script>
+</body>
+</html>

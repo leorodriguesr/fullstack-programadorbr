@@ -1,0 +1,9 @@
+/*É usado para a responsividade da tela. Se a tela foi menor que (max-width: ...px;) será execultado isso:*/
+
+@media screen and (max-width: 700px) {                      /*Se a tela for menor que 700, muda o css para:*/
+
+}
+
+@media screen and (max-width: 400px) {                      /*Se a tela for menor que 400, muda o css para:*/
+
+}

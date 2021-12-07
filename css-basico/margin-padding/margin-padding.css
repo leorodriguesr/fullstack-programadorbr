@@ -1,0 +1,11 @@
+#base {
+    height: 10px;
+    background: red;
+}
+
+#container {
+    background: blue;
+    color: white;
+    margin: 10px;               /*Distancia um elemento das suas bordas. Distância do elemento pra fora*/
+    padding: 20px;              /*É o distanciamento da borda para o conteúdo. Distância pra dentro do elemento.*/
+}

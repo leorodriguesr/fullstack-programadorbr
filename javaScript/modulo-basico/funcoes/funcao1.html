@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //A Função ela dá um nome para um bloco de comando, e ai toda vez que eu chamar esse nome, o computador executa todo esse bloco de comando.
+
+        function media(n1, n2) {                                          //Aqui eu só declarei a função, só tem o nome pro bloco de comando, para chamar a funcao, tenho que colocar o nome dela la embaixo.
+            var nota1 = n1;                                               //Argumentos são valores que vamos passar somente quando chamarmos a função.
+            var nota2 = n2;
+            var media = (nota1 + nota2) / 2;
+            //document.write(media)
+            return media;                                                  //O return faz com que retorna o resultado para que eu possa colocá-lo em uma variável.
+        }
+
+        var resultado1 = media(7, 8)     
+        var resultado2 = media(2, 3)       
+            
+        document.write(resultado1 + ' e ' + resultado2)
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var aluno = {
+            nome: "Leonardo",
+            nota1: 7.5,
+            nota2: [6, 8, 10]
+        }
+        document.write(aluno.nome)                          //Para chamar o valor de dentro de uma propriedade no objeto basta colocar o nome do (objeto.propriedade). Ou objeto["propriedade"].
+        document.write(aluno["nota1"])
+
+        document.write(aluno.nota2[1])                      //Chamando um valor dentro de uma propriedade com array. OU ->
+        document.write(aluno["nota2"][1])
+
+        //ADICIONANDO uma propriedade ao objeto:
+
+        aluno.matricula= 12345;   //ou
+        aluno["sobrenome"] = ["Rodrigues"]
+
+        //--------------------------------MÉTODO ---------------------------------------- quando um objeto tem uma variável damos o nome de propriedade, conforme exemplos acima, quando o objeto tem um função, damos o nome de método.
+
+        var alunos = {
+            nome: 'Leonardo',
+            notas: [7, 5],
+
+            media: function(n1, n2) {
+                return (n1 + n2)/2
+            }
+        }
+        document.write(alunos.media(alunos.notas[0], alunos.notas[1]))
+
+
+        //--------------------------------CONSTRUTORES---------------------------------------------
+
+        var calcMedia = function () {
+            return (this.nota1 + this.nota2)/2                          //O this, que significa "isso" em inglês, fala pra nota1 que ela pertence aquele conjunto específico de objeto. Ela pertence àquela instância.
+        }
+
+
+        var turma = [
+            {
+                nome: 'Ludimila',
+                nota1: 9,
+                nota2: 7,
+                media: calcMedia
+            }
+        ]
+
+        //---------------------------Criando objeto atraves de função, para facilitar a criação de muito conteúdo-------------
+
+        function obj(n, s, i) {
+            return {
+                nome: n,
+                sobrenome: s,
+                idade: i
+            }
+        }
+
+        var primeiroNome = obj("Igor", "Oliveira", 32)
+        var segundoNome= obj('Leo', 'Rodrigues', 32)
+        var terceiroNome= obj('Ludi', 'Oliveira', 32)
+
+
+        console.log(primeiroNome)
+        console.log(segundoNome)
+        console.log(terceiroNome)
+
+    </script>
+</body>
+</html>
