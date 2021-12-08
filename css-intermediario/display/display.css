@@ -4,6 +4,6 @@ O display é dividido em:
 a) display: block: é um bloco, quando termina o bloco ele pula uma linha. Aqui é possível modificar a altura e a largura. Ex. Uma div.
 b) display: inline: é um bloco mas na mesma linha, ele não pula uma linha. Aqui não é possível modificar a altura ou a largura. Ex. Um span. Aqui, se eu tiver 2 quadrados, eu coloco um ao lado do outro.
 c) display: inline-block: é um bloco na mesma linha, igual o display-inline, porém, permite que modifique a largura e a altura.
-d) display: none; Faz com que um elemento nunca tivesse sido mostrado na tela. Ele tira o elemento ou a imagem.
+d) display: none; Faz com que um elemento nunca tivesse sido mostrado na tela. Ele tira o elemento ou a imagem da tela.
 */
 

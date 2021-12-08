@@ -3,7 +3,7 @@
 
 //Modificando o conteúdo do html:
 
-let p1 = document.getElementById('p1');
+let p1 = document.getElementsByClassName('titulo');
 let p2 = document.getElementById('p2');
 let p3 = document.getElementById('p3');
 
@@ -11,5 +11,6 @@ p1.InnerText = "Mudei o título";
 p2.innerHTML = "Outro texto";
 p3.textContent = "Mais um texto, o ultimo."
 
-//Parei no modificando elemetos.
-//Testando...
+
+p2.style.backgroundColor = 'blue';
+
