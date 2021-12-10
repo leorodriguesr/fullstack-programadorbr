@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        div {
+            display: inline-block;
+            padding: 2rem;
+            background-color: red;
+            font-size: 20px;
+        }
+        
+    </style>
+
+
+
 </head>
 <body>
+    <!--DOM - Document object modal - é a estrutura abaixo do document.-->
     
+    <h1 onclick="console.log('cliquei')">Clique em mim</h1>                         <!--quando clicar, faça alguma coisa. No onclick, que é um evento, posso colocar qualquer coisa, inclusive mudar a cor quando cliclar:-->                  
+    <h2 onclick="style.color = 'red'"> Mudar de cor</h2>
+
+    <input id='texto' type="text" onchange="mudarH1()">                             <!--O onchange significa "quando alterar" faça, no caso a função mudarH1-->
+
+    <!--onload="" O evento onload significa quando a página carregar, faça.-->
+
+    <div onmouseover="style.background='blue'"                                                 
+         onmouseout="style.background='red'"> Click</div>                           <!--no onmouseover, quando o mouse estiver em cima, faça. O onmouseout é o contrário, quando o mouse sair, faça.-->
+
+
+    <script src="script.js"></script>
+
+
+    
+
 </body>
 </html>

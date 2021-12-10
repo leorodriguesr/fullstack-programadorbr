@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="t1">Título 1</h1>
+
+    <h2 id="t2">Título 2</h2>
+
+
+    <script>
+        let t1 = document.getElementById("t1");
+        let t2 = document.getElementById("t2");
+
+        t1.onclick = colocarEmMaiusculo;                                //Dentro do javascript quando eu for passar uma função para o evento eu não coloco () como faço no html. Quando coloca os parentes eu estou executando a função. Sem os parênteses, estou retornando a função.
+        t2.onclick = colocarEmMaiusculo;
+
+        function colocarEmMaiusculo() {
+            this.innerHTML = this.innerHTML.toUpperCase()               //O this, que significa isso, devemos olhar sempre o contexto. Nesse caso, quando eu clico no título 1, o this será referente ao título 1, e quando eu clico no titulo 2, o this será o título 2.
+        }                                                               //O this substitui o t1 e t2, ou seja, a variável que eu atribuir.
+    </script>
+</body>
+</html>
